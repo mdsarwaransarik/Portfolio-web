@@ -1,0 +1,574 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+html {
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+    font-size: 10px;
+}
+
+.light-theme{    --heading: #000;
+
+   }
+
+
+body{
+    background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),
+    url('Image/background.jpg.jfif');
+    background-size: cover;
+    color: antiquewhite;
+}
+
+.navbar{
+    width: 100%;
+    display: flex;
+    padding: 20px;
+    position: sticky;
+    top: 0;
+    z-index: 10;
+    background: rgb(12,11,29);
+}
+
+.left-navbar{
+    width: 30%;
+    justify-content: center;
+    align-items: center;
+}
+
+.left-navbar img{
+    width: 100px;
+    justify-content: center;
+    border-radius: 50%;
+    box-shadow: 10px 10px 10px #c80c70;
+}
+
+.right-navbar{
+    width: 70%;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    font-size: 25px;
+    list-style: none;
+    justify-content: center;
+}
+.right-navbar li{
+
+    text-decoration: none;
+    padding: 10px 20px;
+    display: flex;
+
+}    
+
+.right-navbar li:hover{
+    background-color: #c80c70;
+    border-radius: 8px;
+    
+}
+    
+    
+
+.menu{
+    display: flex;
+}
+ 
+/* Hero Section Start Here*/
+
+.main-hero{
+    width: 100%;
+    display: flex;
+    padding: 70px;
+}
+
+.left-hero-section{
+    width: 50%;
+    font-size: 25px;
+    padding: 20px;
+    
+    
+}
+
+.right-hero-section{
+    width: 50%;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.right-hero-section img{
+    width: 300px;
+    margin-left: 25%;
+    justify-content: center;
+    margin: right;
+    border-radius: 70px;
+    box-shadow: rgb(36, 65, 95) 0px 20px 30px -10px;
+    
+}
+
+/* Below Hero Section*/
+
+.below-hero-section{
+    width: 100%;
+    display: flex;
+    padding: 30px;
+}
+
+.left-below-hero-section{
+    width:  50%;
+}
+
+.left-below-hero-section img{
+    justify-content: left;
+    border-radius: 50px;
+    margin-left: 25%;
+    width: 300px;
+    box-shadow: rgb(36, 65, 95) 0px 20px 30px -10px;
+    margin-bottom: 50px;
+    align-items: right;
+
+}
+
+.right-below-hero-section{
+    width: 50%;
+    justify-content: center;
+}
+
+
+.right-below-hero-section h1{
+    font-size: 40px;
+    
+}
+
+.right-below-hero-section p{
+    font-size: 25px;
+}
+
+
+
+
+.skills{
+    width: 100%;
+    display: flex;
+    padding: 30px;
+}
+
+.left-skills{
+    width: 50%;
+    margin-left: 80px;
+}
+
+.left-skills h1{
+    font-size: 35px;
+}
+ 
+.left-skills p{
+    font-size: 25px;
+}
+
+.right-skills{
+    width: 50%;
+    display: flex;
+}
+
+.right-skills img{
+    width: 300px;
+    margin-left: 25%;
+    border-radius: 50px;
+    justify-content: right;
+    box-shadow: rgb(34, 86, 143) 0px 20px 30px -10px;
+}
+
+/* Button Starts Here */
+
+.mainbutton{
+    width: 100%;
+    gap: 20px;
+    display: flex;
+    margin-top: 50px;
+    
+}
+
+.starts{
+     width: 100%;
+     gap: 10px;
+     align-items: center;
+     justify-content: center;
+     display: flex;
+}
+
+.skillsbutton{
+       width: 30%;
+       display: flex;
+       font-size: 20px;
+       gap: 20px;
+}
+
+.picbutton{
+    width: 30%;
+    padding: 20px;
+    border: none;
+    border-radius: 0px 70px 40px 80px;
+    display: flex;
+    margin-bottom: 20px;
+    align-items: center;
+    justify-content: center;
+    color: black;
+    font-size: 1em;
+    border-top: 2px solid #8F3B76;
+    border-left: 2px solid #553772;
+    box-shadow: 2px 3px #c80c70 ;
+    background-color: antiquewhite;
+}
+
+.skillsbutton :hover{
+    cursor: pointer;
+    background-color: aqua;
+    color: #c80c70;
+    transition: 0.5s ease-in-out;
+}
+
+
+/*Project section start here*/
+
+.main{
+    width: 100%;
+    padding: 70px;
+    margin-top: 150px;
+}
+
+.heading{
+    width: 100%;
+    justify-content: center;
+    text-align: center;
+}
+.heading h1{
+    font-size: 75px;
+}
+
+.heading p{
+    font-size: 25px;
+}
+
+.box{
+    width: 100%;
+}
+
+.firstthree{
+    width: 100%;
+    display: flex;
+    padding: 20px;
+    gap: 20px;
+}
+
+.one{
+    width: 33.3%;
+    border:2px solid rgb(135, 225, 87);
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 50px;
+    border-radius: 20px;
+    text-align: left;
+    box-shadow: rgb(36, 65, 95) 0px 20px 30px -10px;
+}
+
+.one:hover{
+    background-color: #ece0f7;
+    color: #c80c70;
+}
+
+.secondthree{
+    width: 100%;
+    display: flex;
+    padding: 20px;
+    gap: 20px;
+}
+
+.two{
+    width: 33.3%;
+    border: 2px solid rgb(135, 225, 87); 
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    border-radius: 20px;
+    box-shadow: rgb(36, 65, 95) 0px 20px 30px -10px;
+}
+
+.two:hover{
+    background-color: #ece0f7;
+    color: #c80c70;
+}
+
+.icon{
+    display: flex;
+    justify-content: space-between;
+}
+
+.last{
+    display: flex;
+    gap: 20px;
+}
+
+.para{
+    font-family: 'Playfair Display', serif;
+}
+
+/* Footer Section Start Here */
+
+.footer{
+    width: 100%;
+    padding: 50px;
+}
+
+.levelone{
+    width: 100%;
+    font-size: 35px;
+    justify-content: center;
+    text-align: center;
+}
+
+.leveltwo{
+    width: 100%;
+    display: flex;
+    padding: 20px;
+    align-items: right;
+    margin-top: 20px;
+
+}
+
+.onenew{
+    width: 33.3%;
+    display: flex;
+    gap: 20px;
+    font-size: 25px;
+    justify-content: center;
+
+}
+
+.foot-button-social{
+    width: 100%;
+    justify-content: space-between;
+    display: flex;
+    color: #e81c1c;
+    background-color: #e81c1c;
+}
+
+.social{
+    width: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    gap: 0.5em;
+    font-size: 2em;
+    color: rgb(244, 240, 240);
+    position: fixed;
+    bottom: 10px;
+    left: 30px;
+}
+
+.social i{
+    color: rgb(245, 247, 249);
+}
+
+.social :hover{
+    color: rgb(19, 240, 45);
+}
+
+
+.levelthree{
+    width: 100%;
+    font-size: 20px;
+    justify-content: center;
+    text-align: center;
+    /* margin-bottom: 20px; */
+    padding: 20px;
+}
+.levelthree p{
+    font-size: 20px;
+    color: #e81c1c;
+}
+
+/* Responsive for Mobile Starts Here */
+
+@media screen and (max-width: 600px){
+.navlogo img{
+    width: 30%;
+}
+    .right-hero-section img{
+        width: 200px;
+        margin-left: 25%;
+        justify-content: center;
+        margin: right;
+        border-radius: 70px;
+        box-shadow: rgb(36, 65, 95) 0px 20px 30px -10px;}
+
+    .right-navbar{
+        display: none;
+    }
+
+    .left-hero-section{
+        width: 50%;
+        font-size: 12px;
+        padding: 20px;
+        
+        
+    }
+
+    .left-below-hero-section img{
+        justify-content: left;
+        border-radius: 50px;
+        margin-left: 25%;
+        width: 200px;
+        box-shadow: rgb(36, 65, 95) 0px 20px 30px -10px;
+        margin-bottom: 50px;
+        align-items: right;
+    
+    }
+
+    .right-below-hero-section h1{
+        font-size: 20px;
+        
+    }
+    
+    .right-below-hero-section p{
+        font-size: 12px;
+    }
+    
+
+    
+    .left-skills h1{
+        font-size: 20px;
+    }
+     
+    .left-skills p{
+        font-size: 12px;
+    }
+    
+    
+    
+    .right-skills img{
+        width: 200px;
+        margin-left: 25%;
+        border-radius: 50px;
+        justify-content: right;
+        box-shadow: rgb(34, 86, 143) 0px 20px 30px -10px;
+    }
+    
+    .skillsbutton{
+        width: 30%;
+        display: flex;
+        font-size: 10px;
+ }
+
+ .heading h1{
+    font-size: 55px;
+}
+
+.heading p{
+    font-size: 25px;
+}
+
+.firstthree{
+    width: 100%;
+    /* display: flex; */
+    padding: 20px;
+    gap: 10px;
+    display: block;
+}
+
+.one{
+    width: 100%;
+    border:2px solid rgb(135, 225, 87);
+    /* display: flex;
+    flex-direction: column; */
+    gap: 20px;
+    padding: 50px;
+    border-radius: 20px;
+    text-align: center;
+    box-shadow: rgb(36, 65, 95) 0px 20px 30px -10px;
+    display: block;
+    margin-bottom: 20px;
+}
+
+
+
+
+.secondthree{
+    width: 100%;
+    /* display: flex; */
+    padding: 20px;
+    gap: 10px;
+    display: block;
+}
+
+.two{
+    width: 100%;
+    border: 2px solid rgb(135, 225, 87); 
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    border-radius: 20px;
+    box-shadow: rgb(36, 65, 95) 0px 20px 30px -10px;
+    margin-bottom: 20px;
+}
+
+.levelone{
+    width: 100%;
+    font-size: 35px;
+    justify-content: center;
+    text-align: center;
+    
+}
+
+.leveltwo{
+    width: 100%;
+    flex-direction: column;
+    padding: 0px;
+    align-items: center;
+    margin-top: 20px;
+    gap: 10px;
+}
+
+
+.levelthree p{
+    font-size: 22px;
+}
+
+.levelthree p1{
+    font-size: 15px;
+}
+.starts{
+    display: block;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+
+    
+}
+
+.skillsbutton{
+    gap: 50px;
+   width: 100%;
+   padding: 20px;
+   font-size: 17px;
+}
+.mainbutton{
+    
+        width: 100%;
+        gap: 0px;
+        display: flex;
+        margin-top: 0px;
+        justify-content: center;
+        align-items: center;
+        /* background-color: red; */
+        
+}
+
+.number{
+    font-size: 18px;
+}
+}
